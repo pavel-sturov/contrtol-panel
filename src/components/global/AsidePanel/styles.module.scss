@@ -1,0 +1,28 @@
+.title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3f51b5;;
+}
+
+.labelWrapper {
+  display: flex;
+
+  > svg {
+    margin-right: 10px;
+  }
+}
+
+.btn {
+  margin-top: 20px;
+  width: 130px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  >:first-child {
+    margin-right: 50px;
+  }
+}

@@ -1,0 +1,61 @@
+@import 'src/helpers/styles/mixins';
+
+.accountWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  .account {
+    margin-left: 20px;
+    font-size: 40px !important;
+  }
+
+  &:hover {
+    background-color: #6b477b;
+  }
+}
+
+.name {
+  user-select: none;
+}
+
+.accountActions {
+  border: 1px solid #a9a9a9;
+  background-color: #543864;
+  border-radius: 3px;
+  position: absolute;
+  top: 50px;
+  display: none;
+}
+
+.activeAcc {
+  display: block;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  padding: 10px 20px;
+  text-align: center;
+  transition: all 0.3s;
+
+  &:first-child {
+    border-bottom: 1px solid #a9a9a9;
+  }
+
+  &:hover {
+    background-color: #765086;
+  }
+}
+
+.link {
+  @include link(white)
+}

@@ -1,0 +1,22 @@
+.list {
+  min-width: 500px;
+  padding: 30px;
+}
+
+
+@media screen and (max-width: 600px){
+  .list {
+    width: 100vw;
+  }
+}
+
+.menuWrapper:hover {
+  .editIcon {
+    color: #00cd54;
+  }
+}
+
+.editIcon {
+  color: #bbbbbb;
+  transition: all 0.3s;
+}

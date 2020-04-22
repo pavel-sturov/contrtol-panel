@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 4px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff5bb;
+  color: #8f8f8f;
+}
+
+.title {
+  margin-right: 10px;
+}
+
+.number {
+  font-weight: bold;
+  color: #595959;
+}
+
+@media screen and (max-width: 500px){
+  .counter {
+    visibility: hidden;
+  }
+}

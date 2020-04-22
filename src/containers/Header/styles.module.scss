@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  height: 70px;
+  background-color: #543864;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.burgerAcc {
+  display: none;
+}
+
+.searchAcc {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  .searchAcc {
+    display: none;
+  }
+
+  .burgerAcc {
+    display: block;
+  }
+}

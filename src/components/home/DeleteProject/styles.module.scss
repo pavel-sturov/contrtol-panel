@@ -1,0 +1,10 @@
+.removeIcon {
+  color: #bbbbbb;
+  transition: all 0.3s;
+}
+
+.modalWrapper:hover {
+  .removeIcon {
+    color: #e3000a;
+  }
+}

@@ -1,0 +1,61 @@
+.btn {
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: #785388;
+  }
+
+  .menu {
+    font-size: 40px !important;
+  }
+}
+
+.menuItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 150px;
+  padding: 10px 20px;
+
+  &:focus {
+    outline: none;
+  }
+
+  .icon, .exit {
+    color: #9c9ea4;
+    font-size: 30px !important;
+    margin-right: 10px;
+    transition: all 0.3s;
+
+  }
+
+  &:hover {
+    background-color: rgba(202, 143, 223, 0.39);
+
+    .icon {
+      color: #80d696;
+    }
+
+    .exit {
+      color: #d4202c;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.searchPanel {
+  display: none;
+}
+
+.showSearchPanel {
+  display: block;
+}

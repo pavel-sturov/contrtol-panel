@@ -1,0 +1,16 @@
+.headerItem {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  width: 20%;
+
+  &:first-child {
+    width: 30%;
+  }
+}
+
+.wrapper {
+  margin: 0 50px;
+  border-radius: 5px;
+}
+
